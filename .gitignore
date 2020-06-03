@@ -1,2 +1,3 @@
 .DS_Store
 node_modules/*
+Smackbar-darwin-x64/*
