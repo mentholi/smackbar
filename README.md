@@ -4,6 +4,17 @@ Bar electron app.
 
 ## Building
 
-install requirements: `npm install`
-Build the app:  `./node_modules/nativefier/lib/cli.js --darwin-dark-mode-support --clear-cache --icon giosg_ball_1024.png --platform macos --name "Smackbar" https://service.giosg.com/bar`
+* Install requirements:
+```npm install```
 
+Build the app:
+```
+./build.sh
+```
+or
+```
+./node_modules/nativefier/lib/cli.js --darwin-dark-mode-support --clear-cache --icon giosg_ball_1024.png --platform macos --name "Smackbar" https://service.giosg.com/bar
+```
+
+## Run app after building
+Go to `Smackbar-darwin-x64/` and start `Smackbar.app`.
